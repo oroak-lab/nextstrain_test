@@ -1,0 +1,19 @@
+name: colombia_analysis
+channels:
+- bioconda
+- defaults
+- conda-forge
+dependencies:
+- python=3*
+- conda
+- ipykernel
+- notebook
+- matplotlib
+- numpy=1.13*
+- pandas
+- basemap
+- basemap-data-hires #for high resolution maps in basemap
+- snakemake
+- pip:
+  - nextstrain-augur
+  - nextstrain-cli
